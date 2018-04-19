@@ -18,8 +18,8 @@ public class BarbarianTest {
     public void before(){
         tool1 = new Tool("Death Hammer");
         tool2 = new Tool("Skull Crusher");
-        barbarian1 = new Barbarian("Val the Great", 58, tool1);
-        barbarian2 = new Barbarian("Shal the Great", 100, tool2);
+        barbarian1 = new Barbarian("Val the Great", 58, tool1, 80);
+        barbarian2 = new Barbarian("Shal the Great", 100, tool2, 70);
     }
 
     @Test

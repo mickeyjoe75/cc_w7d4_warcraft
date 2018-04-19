@@ -18,8 +18,8 @@ public class KnightTest {
     public void before(){
         tool1 = new Tool("Sword of Sorrow");
         tool2 = new Tool("The Widowmaker");
-        knight1 = new Knight("Sir Laurence of Codeclan", 50, tool1);
-        knight2 = new Knight("The Black Knight", 20, tool2);
+        knight1 = new Knight("Sir Laurence of Codeclan", 50, tool1, 40);
+        knight2 = new Knight("The Black Knight", 20, tool2, 50);
     }
 
     @Test

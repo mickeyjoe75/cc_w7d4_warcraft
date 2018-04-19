@@ -7,11 +7,14 @@ public abstract class Player {
     private String name;
     private int loot;
     private Tool tool;
+    private int health;
+    private int damage;
 
-    public Player(String name, int loot, Tool tool) {
+    public Player(String name, int loot, Tool tool, int health) {
         this.name = name;
         this.loot = loot;
         this.tool = tool;
+        this.health = health;
     }
 
     public String getName(){
@@ -29,5 +32,14 @@ public abstract class Player {
     public void changeTool(Tool newTool){
         this.tool = newTool;
     }
+
+    public int decreaseHealth(int damage){
+        return this.health -= damage;
+    }
+
+    public int getHealth(){
+        return this.health;
+    }
+
 
 }
