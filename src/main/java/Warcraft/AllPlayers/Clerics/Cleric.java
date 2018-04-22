@@ -1,4 +1,11 @@
 package Warcraft.AllPlayers.Clerics;
 
-public class Cleric {
+import Warcraft.Tools.Tool;
+
+public class Cleric extends ClericSuper {
+
+    public Cleric(String name, int loot, Tool healthPotion, int health) {
+        super(name, loot, healthPotion, health);
+    }
+
 }
