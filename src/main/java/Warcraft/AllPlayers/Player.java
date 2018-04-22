@@ -37,6 +37,10 @@ public abstract class Player {
         return this.health -= damage;
     }
 
+    public int getHealed(int healthPotion){
+        return this.health += healthPotion;
+    }
+
     public int getHealth(){
         return this.health;
     }
@@ -44,5 +48,6 @@ public abstract class Player {
     public int getToolPower(){
         return this.tool.getPower();
     }
+
 
 }
