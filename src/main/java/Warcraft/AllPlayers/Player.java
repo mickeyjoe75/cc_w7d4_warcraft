@@ -33,8 +33,7 @@ public abstract class Player {
         this.tool = newTool;
     }
 
-    public int getAttacked(){
-        int damage = tool.getPower();
+    public int getAttacked(int damage){
         return this.health -= damage;
     }
 

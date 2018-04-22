@@ -19,17 +19,17 @@ public class RoomTest {
     @Before
     public void before(){
         room1 = new Room("Chamber of Spells");
-        weapon1 = new Tool("Death axe", 4);
+        weapon1 = new Tool("Death axe", 25);
         player1 = new Knight("John", 100, weapon1, 100);
-        weapon2 = new Tool("Death Whip", 7);
+        weapon2 = new Tool("Death Whip", 30);
         player2 = new Knight("John", 100, weapon2, 90);
         }
 
     @Test
     public void playersCanBattle(){
         room1.playersBattle(player1, player2);
-        assertEquals(96,player1.getHealth());
-        assertEquals(83,player2.getHealth());
+        assertEquals(70,player1.getHealth());
+        assertEquals(65,player2.getHealth());
     }
 
 

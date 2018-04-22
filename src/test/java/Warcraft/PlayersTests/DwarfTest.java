@@ -41,11 +41,11 @@ public class DwarfTest {
         assertEquals("The Widowmaker", dwarf1.getTool().sayName());
     }
 
-    @Test
-    public void canGetAttacked(){
-        dwarf1.getAttacked();
-        assertEquals(60, dwarf1.getHealth());
-    }
+//    @Test
+//    public void canGetAttacked(){
+//        dwarf1.getAttacked();
+//        assertEquals(60, dwarf1.getHealth());
+//    }
 
     @Test
     public void canGetWeaponPower(){
