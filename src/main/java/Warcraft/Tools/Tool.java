@@ -1,6 +1,6 @@
 package Warcraft.Tools;
 
-public abstract class Tool {
+public class Tool {
 
     private String name;
     protected int power;

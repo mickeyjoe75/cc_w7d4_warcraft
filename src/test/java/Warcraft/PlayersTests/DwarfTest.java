@@ -2,7 +2,7 @@ package Warcraft.PlayersTests;
 
 import Warcraft.AllPlayers.Fighters.Barbarian;
 import Warcraft.AllPlayers.Fighters.Dwarf;
-import Warcraft.Tools.Weapon;
+import Warcraft.Tools.Tool;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,14 +12,14 @@ public class DwarfTest {
 
     Dwarf dwarf1;
     Dwarf dwarf2;
-    Weapon weapon1;
-    Weapon weapon2;
+    Tool weapon1;
+    Tool weapon2;
     Barbarian barbarian1;
 
     @Before
     public void before() {
-        weapon1 = new Weapon("Sword of Sorrow", 10);
-        weapon2 = new Weapon("The Widowmaker", 8);
+        weapon1 = new Tool("Sword of Sorrow", 40);
+        weapon2 = new Tool("The Widowmaker", 35);
         dwarf1 = new Dwarf("Shorty of Codeclan", 50, weapon1, 100);
         dwarf2 = new Dwarf("The Grey Dwarf", 20, weapon2, 80);
     }
@@ -48,7 +48,7 @@ public class DwarfTest {
     }
 
 //    @Test
-//    public void has Weapon(){
+//    public void hasWeapon(){
 //        assertEquals(weapon1, dwarf1.getWeapon());
 //    }
 

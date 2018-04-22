@@ -1,7 +1,7 @@
 package Warcraft.PlayersTests;
 
 import Warcraft.AllPlayers.Fighters.Knight;
-import Warcraft.Tools.Weapon;
+import Warcraft.Tools.Tool;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,15 +11,15 @@ public class KnightTest {
 
     Knight knight1;
     Knight knight2;
-    Weapon tool1;
-    Weapon tool2;
+    Tool weapon1;
+    Tool weapon2;
 
     @Before
     public void before(){
-        tool1 = new Weapon("Sword of Sorrow", 6);
-        tool2 = new Weapon("The Widowmaker", 12);
-        knight1 = new Knight("Sir Laurence of Codeclan", 50, tool1, 40);
-        knight2 = new Knight("The Black Knight", 20, tool2, 50);
+        weapon1 = new Tool("Sword of Sorrow", 6);
+        weapon2 = new Tool("The Widowmaker", 12);
+        knight1 = new Knight("Sir Laurence of Codeclan", 50, weapon1, 40);
+        knight2 = new Knight("The Black Knight", 20, weapon2, 50);
     }
 
     @Test
@@ -35,7 +35,7 @@ public class KnightTest {
 
     @Test
     public void canChangeTool(){
-        knight1.changeTool(tool2);
+        knight1.changeTool(weapon2);
         assertEquals("The Widowmaker", knight1.getTool().sayName());
     }
 
