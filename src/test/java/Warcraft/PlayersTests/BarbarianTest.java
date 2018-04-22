@@ -2,6 +2,7 @@ package Warcraft.PlayersTests;
 
 import Warcraft.AllPlayers.Fighters.Barbarian;
 import Warcraft.Tools.Tool;
+import Warcraft.Tools.Weapon;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,8 +17,8 @@ public class BarbarianTest {
 
     @Before
     public void before(){
-        tool1 = new Tool("Death Hammer");
-        tool2 = new Tool("Skull Crusher");
+        tool1 = new Weapon("Death Hammer", 11);
+        tool2 = new Weapon("Skull Crusher", 9);
         barbarian1 = new Barbarian("Val the Great", 58, tool1, 80);
         barbarian2 = new Barbarian("Shal the Great", 100, tool2, 70);
     }

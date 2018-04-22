@@ -2,6 +2,7 @@ package Warcraft.PlayersTests;
 
 import Warcraft.AllPlayers.Fighters.Knight;
 import Warcraft.Tools.Tool;
+import Warcraft.Tools.Weapon;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,8 +17,8 @@ public class KnightTest {
 
     @Before
     public void before(){
-        tool1 = new Tool("Sword of Sorrow");
-        tool2 = new Tool("The Widowmaker");
+        tool1 = new Weapon("Sword of Sorrow", 6);
+        tool2 = new Weapon("The Widowmaker", 12);
         knight1 = new Knight("Sir Laurence of Codeclan", 50, tool1, 40);
         knight2 = new Knight("The Black Knight", 20, tool2, 50);
     }

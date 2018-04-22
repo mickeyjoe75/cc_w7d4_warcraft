@@ -3,6 +3,7 @@ package Warcraft.PlayersTests;
 import Warcraft.AllPlayers.Fighters.Barbarian;
 import Warcraft.AllPlayers.Fighters.Dwarf;
 import Warcraft.Tools.Tool;
+import Warcraft.Tools.Weapon;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -18,8 +19,8 @@ public class DwarfTest {
 
     @Before
     public void before() {
-        tool1 = new Tool("Sword of Sorrow");
-        tool2 = new Tool("The Widowmaker");
+        tool1 = new Weapon("Sword of Sorrow", 10);
+        tool2 = new Weapon("The Widowmaker", 8);
         dwarf1 = new Dwarf("Shorty of Codeclan", 50, tool1, 100);
         dwarf2 = new Dwarf("The Grey Dwarf", 20, tool2, 80);
     }
