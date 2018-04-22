@@ -6,7 +6,7 @@ public abstract class Player {
 
     private String name;
     private int loot;
-    private Tool tool;
+    protected Tool tool;
     private int health;
     private int damage;
 

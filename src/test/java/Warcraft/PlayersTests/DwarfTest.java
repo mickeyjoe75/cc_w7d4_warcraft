@@ -48,5 +48,10 @@ public class DwarfTest {
         assertEquals(90, dwarf1.getHealth());
     }
 
+//    @Test
+//    public void canGetWeapon(){
+//        dwarf1.getWeapon();
+//    }
+
 
 }

@@ -8,4 +8,8 @@ public class Weapon extends Tool {
         super(name);
         this.power = power;
     }
+
+    public int getWeaponPower(){
+        return this.power;
+    }
 }

@@ -9,4 +9,12 @@ public abstract class Fighter extends Player {
         super(name, loot, tool, health);
     }
 
+    public Tool getWeapon(){
+        return this.tool;
+    }
+
+//    public Weapon attack(Weapon weapon){
+//        return weapon;
+//    }
+
 }
