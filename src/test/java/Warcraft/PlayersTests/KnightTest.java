@@ -1,7 +1,6 @@
 package Warcraft.PlayersTests;
 
 import Warcraft.AllPlayers.Fighters.Knight;
-import Warcraft.Tools.Tool;
 import Warcraft.Tools.Weapon;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,8 +11,8 @@ public class KnightTest {
 
     Knight knight1;
     Knight knight2;
-    Tool tool1;
-    Tool tool2;
+    Weapon tool1;
+    Weapon tool2;
 
     @Before
     public void before(){

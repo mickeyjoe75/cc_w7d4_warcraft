@@ -16,7 +16,7 @@ public class WeaponTest {
     }
 
     @Test
-    public void getWeaponPower() {
-        assertEquals(8, weapon1.getWeaponPower());
+    public void canGetWeaponPower() {
+        assertEquals(8, weapon1.getPower());
     }
 }

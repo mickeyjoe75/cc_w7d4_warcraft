@@ -1,20 +1,18 @@
 package Warcraft.AllPlayers.Fighters;
 
 import Warcraft.AllPlayers.Player;
-import Warcraft.Tools.Tool;
+import Warcraft.Tools.Weapon;
 
 public abstract class Fighter extends Player {
 
-    public Fighter(String name, int loot, Tool tool, int health){
-        super(name, loot, tool, health);
+    protected Weapon weapon;
+
+    public Fighter(String name, int loot, Weapon weapon, int health){
+        super(name, loot, weapon, health);
     }
 
-    public Tool getWeapon(){
-        return this.tool;
+    public Weapon getWeapon(){
+        return this.weapon;
     }
-
-//    public Weapon attack(Weapon weapon){
-//        return weapon;
-//    }
 
 }

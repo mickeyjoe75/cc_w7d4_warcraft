@@ -2,7 +2,6 @@ package Warcraft.PlayersTests;
 
 import Warcraft.AllPlayers.Fighters.Barbarian;
 import Warcraft.AllPlayers.Fighters.Dwarf;
-import Warcraft.Tools.Tool;
 import Warcraft.Tools.Weapon;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,16 +12,16 @@ public class DwarfTest {
 
     Dwarf dwarf1;
     Dwarf dwarf2;
-    Tool tool1;
-    Tool tool2;
+    Weapon weapon1;
+    Weapon weapon2;
     Barbarian barbarian1;
 
     @Before
     public void before() {
-        tool1 = new Weapon("Sword of Sorrow", 10);
-        tool2 = new Weapon("The Widowmaker", 8);
-        dwarf1 = new Dwarf("Shorty of Codeclan", 50, tool1, 100);
-        dwarf2 = new Dwarf("The Grey Dwarf", 20, tool2, 80);
+        weapon1 = new Weapon("Sword of Sorrow", 10);
+        weapon2 = new Weapon("The Widowmaker", 8);
+        dwarf1 = new Dwarf("Shorty of Codeclan", 50, weapon1, 100);
+        dwarf2 = new Dwarf("The Grey Dwarf", 20, weapon2, 80);
     }
 
     @Test
@@ -38,7 +37,7 @@ public class DwarfTest {
 
     @Test
     public void canChangeTool() {
-        dwarf1.changeTool(tool2);
+        dwarf1.changeTool(weapon2);
         assertEquals("The Widowmaker", dwarf1.getTool().sayName());
     }
 
@@ -49,8 +48,13 @@ public class DwarfTest {
     }
 
 //    @Test
-//    public void canGetWeapon(){
-//        dwarf1.getWeapon();
+//    public void has Weapon(){
+//        assertEquals(weapon1, dwarf1.getWeapon());
+//    }
+
+//    @Test
+//    public void getPowerFromWeapon(){
+//        assertEquals(10, tool1.getWeaponPower());
 //    }
 
 

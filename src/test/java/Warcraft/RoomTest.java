@@ -2,7 +2,6 @@ package Warcraft;
 
 import Warcraft.AllPlayers.Fighters.Knight;
 import Warcraft.Rooms.Room;
-import Warcraft.Tools.Tool;
 import Warcraft.Tools.Weapon;
 import org.junit.Before;
 import org.junit.Test;
@@ -14,8 +13,8 @@ public class RoomTest {
     Room room1;
     Knight player1;
     Knight player2;
-    Tool tool1;
-    Tool tool2;
+    Weapon tool1;
+    Weapon tool2;
 
     @Before
     public void before(){
