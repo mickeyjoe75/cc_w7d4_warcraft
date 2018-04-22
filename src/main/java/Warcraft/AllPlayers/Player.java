@@ -41,5 +41,8 @@ public abstract class Player {
         return this.health;
     }
 
+    public int getToolPower(){
+        return this.tool.getPower();
+    }
 
 }

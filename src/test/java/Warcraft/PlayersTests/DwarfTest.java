@@ -47,15 +47,9 @@ public class DwarfTest {
         assertEquals(90, dwarf1.getHealth());
     }
 
-//    @Test
-//    public void hasWeapon(){
-//        assertEquals(weapon1, dwarf1.getWeapon());
-//    }
-
-//    @Test
-//    public void getPowerFromWeapon(){
-//        assertEquals(10, tool1.getWeaponPower());
-//    }
-
+    @Test
+    public void canGetWeaponPowerFromFighter(){
+        assertEquals(40, dwarf1.getToolPower());
+    }
 
 }
