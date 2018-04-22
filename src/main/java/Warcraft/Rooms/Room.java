@@ -17,8 +17,8 @@ public class Room {
       player2.getAttacked(player1.getToolPower());
     }
 
-    public void playerCanHealAnother(Player player1, Player player2){
-        player1.getHealed(player2.getToolPower());
+    public void playerHealsAnother(Player player1, Player player2){
+        player2.getHealed(player1.getToolPower());
     }
 
 }

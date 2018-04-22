@@ -1,5 +1,6 @@
 package Warcraft;
 
+import Warcraft.AllPlayers.Clerics.Cleric;
 import Warcraft.AllPlayers.Fighters.Knight;
 import Warcraft.AllPlayers.Magicians.Warlock;
 import Warcraft.Rooms.Room;
@@ -14,10 +15,12 @@ public class RoomTest {
     Room room1;
     Knight player1;
     Knight player2;
+    Cleric cleric1;
     Warlock warlock1;
     Tool weapon1;
     Tool weapon2;
     Tool spell1;
+    Tool healthPotion1;
 
     @Before
     public void before(){
@@ -28,7 +31,9 @@ public class RoomTest {
         player2 = new Knight("John", 100, weapon2, 90);
         spell1 = new Tool("Terrible Nightmare", 30);
         warlock1 = new Warlock("Alf", 300, spell1, 90);
-        }
+        healthPotion1 = new Tool("Healing Herbs", 50);
+        cleric1 = new Cleric("Cedric the Cleric", 8000, healthPotion1, 100);
+}
 
     @Test
     public void playersCanBattle(){
@@ -42,6 +47,12 @@ public class RoomTest {
         room1.playersBattle(warlock1, player2);
         assertEquals(60,warlock1.getHealth());
         assertEquals(60,player2.getHealth());
+    }
+
+    @Test
+    public void clericCanHeal(){
+        room1.playerHealsAnother(cleric1, warlock1);
+        assertEquals(140, warlock1.getHealth());
     }
 
 }
