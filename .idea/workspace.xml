@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="658de533-04d4-4c40-aa9d-6122b0aa6a14" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Warcraft/PlayersTests/DwarfTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Warcraft/PlayersTests/DwarfTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Warcraft/AllPlayers/Fighters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Warcraft/AllPlayers/Fighters/Dwarf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Warcraft/AllPlayers/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Warcraft/AllPlayers/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Warcraft/Rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Warcraft/Rooms/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Warcraft/PlayersTests/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Warcraft/PlayersTests/DwarfTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,7 +25,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.32695812">
+    <splitter split-orientation="horizontal" split-proportion="0.34153005">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Treasure.java" pinned="false" current-in-tab="false">
@@ -66,8 +64,8 @@
           <file leaf-file-name="DwarfTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/Warcraft/PlayersTests/DwarfTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+                <state relative-caret-position="314">
+                  <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#1196#1197#0" expanded="true" />
@@ -92,7 +90,7 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.46820027">
+        <splitter split-orientation="horizontal" split-proportion="0.56858146">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="Knight.java" pinned="false" current-in-tab="false">
@@ -151,8 +149,8 @@
               <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/Warcraft/AllPlayers/Player.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="459">
-                      <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+                    <state relative-caret-position="431">
+                      <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
                       <folding>
                         <element signature="e#832#833#0" expanded="true" />
                         <element signature="e#853#854#0" expanded="true" />
@@ -165,19 +163,19 @@
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
+              <file leaf-file-name="Room.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/Warcraft/Rooms/Room.java">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="255">
-                      <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+                      <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="Tool.java" pinned="false" current-in-tab="true">
+              <file leaf-file-name="Tool.java" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/main/java/Warcraft/Tools/Tool.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="255">
+                    <state relative-caret-position="240">
                       <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
                       <folding>
                         <element signature="e#302#303#0" expanded="true" />
@@ -528,7 +526,6 @@
         <option value="$PROJECT_DIR$/src/test/java/Warcraft/PlayersTests/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Warcraft/AllPlayers/Magicians/Magician.java" />
         <option value="$PROJECT_DIR$/src/main/java/Warcraft/AllPlayers/Clerics/ClericSuper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Warcraft/Rooms/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/Warcraft/Tools/Weapon.java" />
         <option value="$PROJECT_DIR$/src/main/java/Warcraft/AllPlayers/Fighters/Fighter.java" />
         <option value="$PROJECT_DIR$/src/main/java/Warcraft/Tools/Tool.java" />
@@ -539,8 +536,9 @@
         <option value="$PROJECT_DIR$/src/test/java/Warcraft/PlayersTests/BarbarianTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Warcraft/AllPlayers/Fighters/Barbarian.java" />
         <option value="$PROJECT_DIR$/src/main/java/Warcraft/AllPlayers/Fighters/Dwarf.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Warcraft/PlayersTests/DwarfTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Warcraft/AllPlayers/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Warcraft/Rooms/Room.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Warcraft/PlayersTests/DwarfTest.java" />
       </list>
     </option>
   </component>
@@ -877,18 +875,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Warcraft_in_simon-joe-warcraft_test - 2018.04.22 at 17h 48m 07s.xml">
-      <configuration name="Warcraft in simon-joe-warcraft_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Warcraft_in_simon-joe-warcraft_test - 2018.04.22 at 17h 50m 03s.xml">
-      <configuration name="Warcraft in simon-joe-warcraft_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Warcraft_in_simon-joe-warcraft_test - 2018.04.22 at 17h 50m 28s.xml">
-      <configuration name="Warcraft in simon-joe-warcraft_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Warcraft_in_simon-joe-warcraft_test - 2018.04.22 at 17h 54m 59s.xml">
-      <configuration name="Warcraft in simon-joe-warcraft_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Warcraft_in_simon-joe-warcraft_test - 2018.04.22 at 17h 55m 05s.xml">
       <configuration name="Warcraft in simon-joe-warcraft_test" configurationId="JUnit" />
     </history-entry>
@@ -907,6 +893,18 @@
     <history-entry file="Warcraft_in_simon-joe-warcraft_test - 2018.04.22 at 18h 10m 32s.xml">
       <configuration name="Warcraft in simon-joe-warcraft_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Warcraft_in_simon-joe-warcraft_test - 2018.04.22 at 18h 19m 05s.xml">
+      <configuration name="Warcraft in simon-joe-warcraft_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Warcraft_in_simon-joe-warcraft_test - 2018.04.22 at 18h 19m 17s.xml">
+      <configuration name="Warcraft in simon-joe-warcraft_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Warcraft_in_simon-joe-warcraft_test - 2018.04.22 at 18h 26m 49s.xml">
+      <configuration name="Warcraft in simon-joe-warcraft_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Warcraft_in_simon-joe-warcraft_test - 2018.04.22 at 18h 29m 27s.xml">
+      <configuration name="Warcraft in simon-joe-warcraft_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -920,12 +918,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.263369" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.263369" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1421875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1421875" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1151,13 +1149,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Warcraft/Rooms/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1243,17 +1234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Warcraft/Tools/Tool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Warcraft/AllPlayers/Fighters/Barbarian.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1261,18 +1241,6 @@
           <folding>
             <element signature="e#176#177#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Warcraft/PlayersTests/DwarfTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1288,13 +1256,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Warcraft/Tools/Tool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Warcraft/AllPlayers/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        <state relative-caret-position="431">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding>
             <element signature="e#832#833#0" expanded="true" />
             <element signature="e#853#854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Warcraft/Rooms/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Warcraft/PlayersTests/DwarfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -42,13 +42,13 @@ public class DwarfTest {
     }
 
     @Test
-    public void canDecreaseHealth(){
-        dwarf1.decreaseHealth(10);
-        assertEquals(90, dwarf1.getHealth());
+    public void canGetAttacked(){
+        dwarf1.getAttacked();
+        assertEquals(60, dwarf1.getHealth());
     }
 
     @Test
-    public void canGetWeaponPowerFromFighter(){
+    public void canGetWeaponPower(){
         assertEquals(40, dwarf1.getToolPower());
     }
 

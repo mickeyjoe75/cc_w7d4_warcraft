@@ -28,8 +28,8 @@ public class RoomTest {
     @Test
     public void playersCanBattle(){
         room1.playersBattle(player1, player2);
-        assertEquals(90,player1.getHealth());
-        assertEquals(80,player2.getHealth());
+        assertEquals(96,player1.getHealth());
+        assertEquals(83,player2.getHealth());
     }
 
 

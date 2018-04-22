@@ -14,7 +14,7 @@ public class Room {
     }
 
     public void playersBattle(Player player1, Player player2){
-      player1.decreaseHealth(10);
-      player2.decreaseHealth(10);
+      player1.getAttacked();
+      player2.getAttacked();
     }
 }
